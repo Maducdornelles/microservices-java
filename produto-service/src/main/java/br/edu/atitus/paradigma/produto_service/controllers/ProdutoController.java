@@ -30,7 +30,6 @@ public class ProdutoController {
 			@PathVariable Integer idProduto,
 			@PathVariable String moeda) throws Exception{
 		
-		//vai buscar no banco de dados
 		ProdutoEntity produto = repository.findById(idProduto)
 				.orElseThrow(() -> new Exception("Produto não encontrado!"));
 		

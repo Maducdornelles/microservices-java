@@ -1,5 +1,5 @@
 server:
-  port: 8000
+  port: 8100
 
 management:
   endpoints:
@@ -14,7 +14,7 @@ spring:
   application:
     name: produto-service
   datasource:
-    url: jdbc:postgresql://localhost/produto_db
+    url: jdbc:postgresql://localhost/cambio_db
     username: postgres
     password: postgres
   jpa:
