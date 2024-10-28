@@ -1,5 +1,4 @@
-CREATE TABLE cambio
-(
+CREATE TABLE cambio (
     id serial NOT NULL,
     origem character(3) NOT NULL,
     destino character(3) NOT NULL,

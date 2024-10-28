@@ -21,6 +21,7 @@ public class CambioEntity {
 	
 	@Transient
 	private String ambiente;
+	
 	@Transient
 	private double valorConvertido;
 
@@ -71,6 +72,6 @@ public class CambioEntity {
 	public void setValorConvertido(double valorConvertido) {
 		this.valorConvertido = valorConvertido;
 	}
-
+	
 	
 }
